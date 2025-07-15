@@ -8,7 +8,7 @@ uvm_analysis_port #(ram_seq_item) item_collected_port;
 function new(string name,uvm_component parent);
 super.new(name,parent);
 tx=new();
-item_collected_port = new("item_colcted_port",this);
+  item_collected_port = new("item_collected_port",this);
 endfunction
 
 //buildphase
